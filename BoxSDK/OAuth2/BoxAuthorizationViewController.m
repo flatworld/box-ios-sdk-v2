@@ -46,6 +46,14 @@
 @synthesize preexistingCookies = _preexistingCookies;
 @synthesize preexistingCookiePolicy = _preexistingCookiePolicy;
 
+
+- (BOOL)disablesAutomaticKeyboardDismissal
+{
+    
+    return NO;
+    
+}
+
 - (id)initWithAuthorizationURL:(NSURL *)authorizationURL redirectURI:(NSString *)redirectURI
 {
 	self = [super init];
@@ -279,6 +287,9 @@
 - (void)connection:(NSURLConnection *)connection willSendRequestForAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge
 {
 	BOXLog(@"connection %@ did receive authentication challenge %@", connection, challenge);
+    
+    [(UIWebView *)[self view] stringByEvaluatingJavaScriptFromString:@"document.activeElement.blur()"];
+    
 	if ([[[challenge protectionSpace] authenticationMethod] isEqualToString:NSURLAuthenticationMethodServerTrust])
 	{
 		BOXLog(@"Server trust authentication challenge");
