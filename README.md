@@ -4,6 +4,7 @@ BoxSDK: Box API V2 iOS SDK
 [![Build Status](https://travis-ci.org/box/box-ios-sdk-v2.png?branch=master)](https://travis-ci.org/box/box-ios-sdk-v2)
 [![Version](https://cocoapod-badges.herokuapp.com/v/box-ios-sdk-v2/badge.png)](http://cocoadocs.org/docsets/box-ios-sdk-v2)
 [![Platform](https://cocoapod-badges.herokuapp.com/p/box-ios-sdk-v2/badge.png)](http://cocoadocs.org/docsets/box-ios-sdk-v2)
+[![Project Status](http://opensource.box.com/badges/maintenance.svg)](http://opensource.box.com/badges)
 
 This SDK provides access to the [Box V2 API](https://developers.box.com/docs/).
 It currently supports file, folder, user, comment, and search operations.
@@ -57,17 +58,10 @@ Set your client ID and client secret on the SDK client:
 [BoxSDK sharedSDK].OAuth2Session.clientSecret = @"YOUR_CLIENT_SECRET";
 ```
 
-One way to complete the OAuth2 flow is to have your app to register a
-custom URL scheme in order to receive an OAuth2 authorization code.
-In your `Info.plist`, register the following URL scheme:
-
-```
-boxsdk-YOUR_CLIENT_ID
-```
-
-**Note**: When setting up your service on Box, leave the OAuth2 reditrect URI blank.
-The SDK will provide a custom redirect URI when issuing OAuth2 calls; doing so requires
-that no redirect URI be set in your service settings.
+**Note**: When setting up your service on Box, make sure that your redirect URI
+is set to `boxsdk-YOUR_CLIENT_ID://boxsdkoauth2redirect` and that you also set
+the 'Redirect url:' value on the Box developer portal. The API will then use
+this URI when issuing OAuth2 calls.
 
 ### Authenticate
 To authenticate your app with Box, you need to use OAuth2. The authorization flow
@@ -75,21 +69,20 @@ happens in a `UIWebView`. To get started, you can present the sample web view th
 SDK provides:
 
 ```objc
-UIViewController *authorizationController = [[BoxAuthorizationViewController alloc] initWithAuthorizationURL:[[BoxSDK sharedSDK].OAuth2Session authorizeURL] redirectURI:nil];
+BoxAuthorizationViewController *authorizationController = [[BoxAuthorizationViewController alloc] initWithAuthorizationURL:[[BoxSDK sharedSDK].OAuth2Session authorizeURL] redirectURI:[[BoxSDK sharedSDK].OAuth2Session redirectURIString]];
+authorizationController.delegate = myAuthorizationControllerDelegate;
 [self presentViewController:authorizationController animated:YES completion:nil];
 ```
 
-On successful authentication, your app will receive an "open in" request using
-the custom URL scheme you registered earlier. In your app delegate:
+On successful authentication, the object you set as the delegate of your
+BoxAuthorizationViewController will receive the '- (BOOL)authorizationViewController:(BoxAuthorizationViewController *)authorizationViewController shouldLoadReceivedOAuth2RedirectRequest:(NSURLRequest *)request'
+callback:
 
 ```objc
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-  sourceApplication:(NSString*)sourceApplication
-         annotation:(id)annotation
+- (BOOL)authorizationViewController:(BoxAuthorizationViewController *)authorizationViewController shouldLoadReceivedOAuth2RedirectRequest:(NSURLRequest *)request
 {
-    [[BoxSDK sharedSDK].OAuth2Session performAuthorizationCodeGrantWithReceivedURL:url];
-    return YES;
+    [[BoxSDK sharedSDK].OAuth2Session performAuthorizationCodeGrantWithReceivedURL:request.URL];
+    return NO;
 }
 ```
 
