@@ -112,6 +112,9 @@
 	[webView stopLoading];
 
 	[self.connection cancel];
+    
+    [super viewWillDisappear:animated];
+    
 }
 
 #pragma mark - Actions
