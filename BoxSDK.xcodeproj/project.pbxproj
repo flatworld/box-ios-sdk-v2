@@ -7,27 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70B086F718E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B086F618E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m */; };
-		70B086F818E0DC1300EA2D8F /* BoxSharedObjectBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B086F618E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m */; };
 		9400B0BB17FB8BE00077D4E7 /* BoxUsersRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9400B0B917FB8BE00077D4E7 /* BoxUsersRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9400B0BC17FB8BE00077D4E7 /* BoxUsersRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0BA17FB8BE00077D4E7 /* BoxUsersRequestBuilder.m */; };
 		9400B0BF17FB8BEA0077D4E7 /* BoxUsersResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9400B0BD17FB8BEA0077D4E7 /* BoxUsersResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9400B0C017FB8BEA0077D4E7 /* BoxUsersResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0BE17FB8BEA0077D4E7 /* BoxUsersResourceManager.m */; };
-		9400B0C317FB8C470077D4E7 /* BoxUsersRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0C217FB8C470077D4E7 /* BoxUsersRequestBuilderTests.m */; };
-		9400B0C617FB8C600077D4E7 /* BoxUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0C517FB8C600077D4E7 /* BoxUserTests.m */; };
-		9400B0C917FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0C717FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.m */; };
 		AF153B1317C346D6008D636C /* NSJSONSerialization+BoxAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AF153B1117C346D6008D636C /* NSJSONSerialization+BoxAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF153B1417C346D6008D636C /* NSJSONSerialization+BoxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF153B1217C346D6008D636C /* NSJSONSerialization+BoxAdditions.m */; };
-		AF153B1717C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF153B1617C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.m */; };
 		AF6534B217CF27DB00C27DFD /* NSJSONSerialization+BoxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF153B1217C346D6008D636C /* NSJSONSerialization+BoxAdditions.m */; };
 		AF6534B317CF27E200C27DFD /* NSJSONSerialization+BoxAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AF153B1117C346D6008D636C /* NSJSONSerialization+BoxAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6534B417CF27EE00C27DFD /* BoxModelComparators.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6E06A617AE66AF0039F17D /* BoxModelComparators.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6534B517CF280000C27DFD /* BoxModelComparators.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E06A717AE66AF0039F17D /* BoxModelComparators.m */; };
-		AF6534B617CF281600C27DFD /* NSJSONSerialization+BoxAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF153B1617C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.m */; };
-		AF6534B717CF281600C27DFD /* BoxModelComparatorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E06AB17AE6C240039F17D /* BoxModelComparatorsTest.m */; };
 		AF6E06A817AE66AF0039F17D /* BoxModelComparators.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6E06A617AE66AF0039F17D /* BoxModelComparators.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6E06A917AE66AF0039F17D /* BoxModelComparators.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E06A717AE66AF0039F17D /* BoxModelComparators.m */; };
-		AF6E06AC17AE6C240039F17D /* BoxModelComparatorsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6E06AB17AE6C240039F17D /* BoxModelComparatorsTest.m */; };
 		C527057719118D3000497C65 /* icon-file-aac.png in Resources */ = {isa = PBXBuildFile; fileRef = C52704CD19118D2F00497C65 /* icon-file-aac.png */; };
 		C527057819118D3000497C65 /* icon-file-aac@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C52704CE19118D2F00497C65 /* icon-file-aac@2x.png */; };
 		C527057919118D3000497C65 /* icon-file-ai.png in Resources */ = {isa = PBXBuildFile; fileRef = C52704CF19118D2F00497C65 /* icon-file-ai.png */; };
@@ -224,9 +215,6 @@
 		CA0F91F9183EA1AF0090696B /* BoxCommentsResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F91F7183EA1AF0090696B /* BoxCommentsResourceManager.m */; };
 		CA0F91FD183EA5430090696B /* BoxModelBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0F91FB183EA5430090696B /* BoxModelBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA0F91FE183EA5430090696B /* BoxModelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F91FC183EA5430090696B /* BoxModelBuilder.m */; };
-		CA0F9201183EBAA50090696B /* BoxCommentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F9200183EBAA50090696B /* BoxCommentTests.m */; };
-		CA0F9204183EC3720090696B /* BoxCommentsResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F9203183EC3720090696B /* BoxCommentsResourceManagerTests.m */; };
-		CA0F9207183EC3A40090696B /* BoxCommentsRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F9206183EC3A40090696B /* BoxCommentsRequestBuilderTests.m */; };
 		E4081D8F1758728900F6D6AA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4081D8E1758728900F6D6AA /* CoreFoundation.framework */; };
 		E4081D951758728900F6D6AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4081D931758728900F6D6AA /* InfoPlist.strings */; };
 		E4081DE01758732800F6D6AA /* action-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E4081D9B1758732800F6D6AA /* action-normal.png */; };
@@ -247,45 +235,29 @@
 		E4081DEF1758732800F6D6AA /* standard-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4081DAA1758732800F6D6AA /* standard-normal@2x.png */; };
 		E4081DF01758732800F6D6AA /* standard-tap.png in Resources */ = {isa = PBXBuildFile; fileRef = E4081DAB1758732800F6D6AA /* standard-tap.png */; };
 		E4081DF11758732800F6D6AA /* standard-tap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4081DAC1758732800F6D6AA /* standard-tap@2x.png */; };
-		E4081E4C175EF18800F6D6AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54BBF6F1758539E00F5DAD8 /* QuartzCore.framework */; };
-		E4081E4E175EF1B900F6D6AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4081E4D175EF1B900F6D6AA /* CoreGraphics.framework */; };
 		E40C7A49174BFDB500477760 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40C7A48174BFDB500477760 /* Security.framework */; };
-		E40C7A4A174BFDE400477760 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40C7A48174BFDB500477760 /* Security.framework */; };
 		E4362756183E939A00C608E1 /* BoxSearchResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4362754183E939A00C608E1 /* BoxSearchResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4362757183E939A00C608E1 /* BoxSearchResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4362755183E939A00C608E1 /* BoxSearchResourceManager.m */; };
 		E4362758183E95AA00C608E1 /* BoxSearchResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4362755183E939A00C608E1 /* BoxSearchResourceManager.m */; };
 		E4362759183E95B500C608E1 /* BoxSearchResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4362754183E939A00C608E1 /* BoxSearchResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E436275C183E970E00C608E1 /* BoxSearchResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E436275B183E970E00C608E1 /* BoxSearchResourceManagerTests.m */; };
-		E436275D183E9D1400C608E1 /* BoxSearchResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E436275B183E970E00C608E1 /* BoxSearchResourceManagerTests.m */; };
 		E436276C183EDCA000C608E1 /* BoxSearchRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E436276A183EDCA000C608E1 /* BoxSearchRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E436276D183EDCA000C608E1 /* BoxSearchRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E436276A183EDCA000C608E1 /* BoxSearchRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E436276E183EDCA000C608E1 /* BoxSearchRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E436276B183EDCA000C608E1 /* BoxSearchRequestBuilder.m */; };
 		E436276F183EDCA000C608E1 /* BoxSearchRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E436276B183EDCA000C608E1 /* BoxSearchRequestBuilder.m */; };
-		E4362772183EE05800C608E1 /* BoxSearchRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4362771183EE05800C608E1 /* BoxSearchRequestBuilderTests.m */; };
-		E4362773183EE1DA00C608E1 /* BoxSearchRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4362771183EE05800C608E1 /* BoxSearchRequestBuilderTests.m */; };
 		E44A95B116E21C5100356ADA /* BoxSDKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E44A95B016E21C5100356ADA /* BoxSDKConstants.m */; };
 		E44A95D116E221B400356ADA /* BoxSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CF273516DC4A5100F5979E /* BoxSDKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E44A95D216E221B400356ADA /* BoxSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E470434316D41DC500FED29A /* BoxSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E44A95D616E221B400356ADA /* BoxLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C3289716D6F447002DC905 /* BoxLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E470433F16D41DC500FED29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470433E16D41DC500FED29A /* Foundation.framework */; };
 		E470434616D41DC500FED29A /* BoxSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E470434516D41DC500FED29A /* BoxSDK.m */; };
-		E470434E16D41DC500FED29A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470434D16D41DC500FED29A /* SenTestingKit.framework */; };
-		E470435116D41DC500FED29A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470433E16D41DC500FED29A /* Foundation.framework */; };
-		E470435416D41DC500FED29A /* libBoxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E470433B16D41DC500FED29A /* libBoxSDK.a */; };
-		E470435A16D41DC500FED29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E470435816D41DC500FED29A /* InfoPlist.strings */; };
-		E470435D16D41DC500FED29A /* BoxSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E470435C16D41DC500FED29A /* BoxSDKTests.m */; };
 		E479B2921804C01E00F8D79C /* BoxUsersRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0BA17FB8BE00077D4E7 /* BoxUsersRequestBuilder.m */; };
 		E479B2931804C01E00F8D79C /* BoxUsersResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0BE17FB8BEA0077D4E7 /* BoxUsersResourceManager.m */; };
 		E479B2941804C02F00F8D79C /* BoxUsersRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9400B0B917FB8BE00077D4E7 /* BoxUsersRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E479B2951804C02F00F8D79C /* BoxUsersResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9400B0BD17FB8BEA0077D4E7 /* BoxUsersResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E479B2961804C06800F8D79C /* BoxUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0C517FB8C600077D4E7 /* BoxUserTests.m */; };
-		E479B2971804C06800F8D79C /* BoxUsersRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0C217FB8C470077D4E7 /* BoxUsersRequestBuilderTests.m */; };
-		E479B2981804C06800F8D79C /* BoxUsersResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9400B0C717FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.m */; };
 		E4CA6F56173F13C10089680F /* BoxParallelAPIQueueManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA6F54173F13C10089680F /* BoxParallelAPIQueueManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4CA6F57173F13C10089680F /* BoxParallelAPIQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CA6F55173F13C10089680F /* BoxParallelAPIQueueManager.m */; };
 		E4CA6F5E173F1C750089680F /* BoxParallelOAuth2Session.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA6F5C173F1C750089680F /* BoxParallelOAuth2Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4CA6F5F173F1C750089680F /* BoxParallelOAuth2Session.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CA6F5D173F1C750089680F /* BoxParallelOAuth2Session.m */; };
-		E4D5085816E80A2A001CE50A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D5085616E80667001CE50A /* libOCMock.a */; };
 		E4F06BFF183EE6EC006AFB83 /* BoxComment.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0F91EA183E881F0090696B /* BoxComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4F06C00183EE6EC006AFB83 /* BoxCommentableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0F91EE183E93BA0090696B /* BoxCommentableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4F06C01183EE6EC006AFB83 /* BoxCommentsRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0F91F2183EA1890090696B /* BoxCommentsRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -295,11 +267,7 @@
 		E4F06C05183EE705006AFB83 /* BoxCommentsRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F91F3183EA1890090696B /* BoxCommentsRequestBuilder.m */; };
 		E4F06C06183EE705006AFB83 /* BoxModelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F91FC183EA5430090696B /* BoxModelBuilder.m */; };
 		E4F06C07183EE776006AFB83 /* BoxCommentsResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F91F7183EA1AF0090696B /* BoxCommentsResourceManager.m */; };
-		E4F06C08183EE793006AFB83 /* BoxCommentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F9200183EBAA50090696B /* BoxCommentTests.m */; };
-		E4F06C09183EE793006AFB83 /* BoxCommentsRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F9206183EC3A40090696B /* BoxCommentsRequestBuilderTests.m */; };
-		E4F06C0A183EE793006AFB83 /* BoxCommentsResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F9203183EC3720090696B /* BoxCommentsResourceManagerTests.m */; };
 		E4F4693617264EBE000CAD86 /* BoxSDKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F4693517264439000CAD86 /* BoxSDKErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4F4693B17268023000CAD86 /* BoxSDKTestsHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F4693A17268023000CAD86 /* BoxSDKTestsHelpers.m */; };
 		E4FAD9C0172CE2C50052AD11 /* NSString+BoxURLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD97C172CE2C50052AD11 /* NSString+BoxURLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4FAD9C1172CE2C50052AD11 /* NSString+BoxURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD97D172CE2C50052AD11 /* NSString+BoxURLHelper.m */; };
 		E4FAD9C2172CE2C50052AD11 /* NSURL+BoxURLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD97E172CE2C50052AD11 /* NSURL+BoxURLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -358,40 +326,10 @@
 		E4FAD9F7172CE2C50052AD11 /* BoxFilesResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9BD172CE2C50052AD11 /* BoxFilesResourceManager.m */; };
 		E4FAD9F8172CE2C50052AD11 /* BoxFoldersResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD9BE172CE2C50052AD11 /* BoxFoldersResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4FAD9F9172CE2C50052AD11 /* BoxFoldersResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9BF172CE2C50052AD11 /* BoxFoldersResourceManager.m */; };
-		E4FADA1C172CE2DF0052AD11 /* NSString+BoxURLHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9FC172CE2DF0052AD11 /* NSString+BoxURLHelperTests.m */; };
-		E4FADA1D172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9FE172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.m */; };
-		E4FADA1E172CE2DF0052AD11 /* BoxCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA01172CE2DF0052AD11 /* BoxCollectionTests.m */; };
-		E4FADA1F172CE2DF0052AD11 /* BoxFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA03172CE2DF0052AD11 /* BoxFileTests.m */; };
-		E4FADA20172CE2DF0052AD11 /* BoxFolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA05172CE2DF0052AD11 /* BoxFolderTests.m */; };
-		E4FADA21172CE2DF0052AD11 /* BoxModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA07172CE2DF0052AD11 /* BoxModelTests.m */; };
-		E4FADA22172CE2DF0052AD11 /* BoxWebLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA09172CE2DF0052AD11 /* BoxWebLinkTests.m */; };
-		E4FADA23172CE2DF0052AD11 /* BoxOAuth2SessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA0C172CE2DF0052AD11 /* BoxOAuth2SessionTests.m */; };
-		E4FADA24172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA0E172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.m */; };
-		E4FADA25172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA11172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.m */; };
-		E4FADA26172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA14172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m */; };
-		E4FADA27172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA16172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m */; };
-		E4FADA28172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA19172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m */; };
-		E4FADA29172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA1B172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m */; };
 		E4FADA2B172CE35F0052AD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FADA2A172CE35F0052AD11 /* UIKit.framework */; };
-		E4FADA2C172CE3A60052AD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FADA2A172CE35F0052AD11 /* UIKit.framework */; };
-		F042767217A8839600EB3419 /* BoxSDKTestsHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F4693A17268023000CAD86 /* BoxSDKTestsHelpers.m */; };
 		F05F80E417B3FD2A001182FB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E5E36217A78DEF00153646 /* Security.framework */; };
 		F05F80E617B3FD46001182FB /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05F80E517B3FD46001182FB /* OCMock.framework */; };
-		F05F80E917B3FE33001182FB /* NSString+BoxURLHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9FC172CE2DF0052AD11 /* NSString+BoxURLHelperTests.m */; };
-		F05F80EA17B3FE33001182FB /* NSURL+BoxURLHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9FE172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.m */; };
 		F05F80EC17B40168001182FB /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F05F80E517B3FD46001182FB /* OCMock.framework */; };
-		F05F80ED17B4021C001182FB /* BoxCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA01172CE2DF0052AD11 /* BoxCollectionTests.m */; };
-		F05F80EE17B4021C001182FB /* BoxFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA03172CE2DF0052AD11 /* BoxFileTests.m */; };
-		F05F80EF17B4021C001182FB /* BoxFolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA05172CE2DF0052AD11 /* BoxFolderTests.m */; };
-		F05F80F017B4021C001182FB /* BoxModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA07172CE2DF0052AD11 /* BoxModelTests.m */; };
-		F05F80F117B4021C001182FB /* BoxWebLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA09172CE2DF0052AD11 /* BoxWebLinkTests.m */; };
-		F05F80F217B40493001182FB /* BoxOAuth2SessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA0C172CE2DF0052AD11 /* BoxOAuth2SessionTests.m */; };
-		F05F80F317B40493001182FB /* BoxSerialOAuth2SessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA0E172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.m */; };
-		F05F80F917B40730001182FB /* BoxSerialAPIQueueManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA11172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.m */; };
-		F05F80FA17B40764001182FB /* BoxFilesRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA14172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m */; };
-		F05F80FB17B40764001182FB /* BoxFoldersRequestBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA16172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m */; };
-		F05F80FC17B40850001182FB /* BoxFilesResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA19172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m */; };
-		F05F80FD17B40850001182FB /* BoxFoldersResourceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA1B172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m */; };
 		F0E5E2F717A78AEF00153646 /* BoxCocoaSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E5E2F617A78AEF00153646 /* BoxCocoaSDK.m */; };
 		F0E5E2FE17A78AEF00153646 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470434D16D41DC500FED29A /* SenTestingKit.framework */; };
 		F0E5E30217A78AEF00153646 /* BoxCocoaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E5E2E717A78AEF00153646 /* BoxCocoaSDK.framework */; };
@@ -474,13 +412,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E470435216D41DC500FED29A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E470433316D41DC500FED29A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E470433A16D41DC500FED29A;
-			remoteInfo = BoxSDK;
-		};
 		F0E5E30017A78AEF00153646 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E470433316D41DC500FED29A /* Project object */;
@@ -513,25 +444,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		70B086F618E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSharedObjectBuilderTests.m; sourceTree = "<group>"; };
 		9400B0B917FB8BE00077D4E7 /* BoxUsersRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersRequestBuilder.h; sourceTree = "<group>"; };
 		9400B0BA17FB8BE00077D4E7 /* BoxUsersRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersRequestBuilder.m; sourceTree = "<group>"; };
 		9400B0BD17FB8BEA0077D4E7 /* BoxUsersResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersResourceManager.h; sourceTree = "<group>"; };
 		9400B0BE17FB8BEA0077D4E7 /* BoxUsersResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersResourceManager.m; sourceTree = "<group>"; };
-		9400B0C117FB8C470077D4E7 /* BoxUsersRequestBuilderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersRequestBuilderTests.h; sourceTree = "<group>"; };
-		9400B0C217FB8C470077D4E7 /* BoxUsersRequestBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersRequestBuilderTests.m; sourceTree = "<group>"; };
-		9400B0C417FB8C600077D4E7 /* BoxUserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUserTests.h; sourceTree = "<group>"; };
-		9400B0C517FB8C600077D4E7 /* BoxUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUserTests.m; sourceTree = "<group>"; };
-		9400B0C717FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxUsersResourceManagerTests.m; sourceTree = "<group>"; };
-		9400B0C817FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxUsersResourceManagerTests.h; sourceTree = "<group>"; };
 		AF153B1117C346D6008D636C /* NSJSONSerialization+BoxAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+BoxAdditions.h"; sourceTree = "<group>"; };
 		AF153B1217C346D6008D636C /* NSJSONSerialization+BoxAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+BoxAdditions.m"; sourceTree = "<group>"; };
-		AF153B1517C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+BoxAdditionsTests.h"; sourceTree = "<group>"; };
-		AF153B1617C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+BoxAdditionsTests.m"; sourceTree = "<group>"; };
 		AF6E06A617AE66AF0039F17D /* BoxModelComparators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxModelComparators.h; sourceTree = "<group>"; };
 		AF6E06A717AE66AF0039F17D /* BoxModelComparators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxModelComparators.m; sourceTree = "<group>"; };
-		AF6E06AA17AE6C240039F17D /* BoxModelComparatorsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxModelComparatorsTest.h; sourceTree = "<group>"; };
-		AF6E06AB17AE6C240039F17D /* BoxModelComparatorsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxModelComparatorsTest.m; sourceTree = "<group>"; };
 		C52704CD19118D2F00497C65 /* icon-file-aac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-file-aac.png"; sourceTree = "<group>"; };
 		C52704CE19118D2F00497C65 /* icon-file-aac@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-file-aac@2x.png"; sourceTree = "<group>"; };
 		C52704CF19118D2F00497C65 /* icon-file-ai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-file-ai.png"; sourceTree = "<group>"; };
@@ -728,12 +648,6 @@
 		CA0F91F7183EA1AF0090696B /* BoxCommentsResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxCommentsResourceManager.m; sourceTree = "<group>"; };
 		CA0F91FB183EA5430090696B /* BoxModelBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxModelBuilder.h; sourceTree = "<group>"; };
 		CA0F91FC183EA5430090696B /* BoxModelBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxModelBuilder.m; sourceTree = "<group>"; };
-		CA0F91FF183EBAA50090696B /* BoxCommentTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxCommentTests.h; sourceTree = "<group>"; };
-		CA0F9200183EBAA50090696B /* BoxCommentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxCommentTests.m; sourceTree = "<group>"; };
-		CA0F9202183EC3720090696B /* BoxCommentsResourceManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxCommentsResourceManagerTests.h; sourceTree = "<group>"; };
-		CA0F9203183EC3720090696B /* BoxCommentsResourceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxCommentsResourceManagerTests.m; sourceTree = "<group>"; };
-		CA0F9205183EC3A40090696B /* BoxCommentsRequestBuilderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxCommentsRequestBuilderTests.h; sourceTree = "<group>"; };
-		CA0F9206183EC3A40090696B /* BoxCommentsRequestBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxCommentsRequestBuilderTests.m; sourceTree = "<group>"; };
 		E4081D8D1758728900F6D6AA /* BoxSDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxSDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4081D8E1758728900F6D6AA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		E4081D921758728900F6D6AA /* BoxSDKResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoxSDKResources-Info.plist"; sourceTree = "<group>"; };
@@ -761,24 +675,15 @@
 		E40C7A48174BFDB500477760 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E4362754183E939A00C608E1 /* BoxSearchResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSearchResourceManager.h; sourceTree = "<group>"; };
 		E4362755183E939A00C608E1 /* BoxSearchResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSearchResourceManager.m; sourceTree = "<group>"; };
-		E436275A183E970E00C608E1 /* BoxSearchResourceManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSearchResourceManagerTests.h; sourceTree = "<group>"; };
-		E436275B183E970E00C608E1 /* BoxSearchResourceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSearchResourceManagerTests.m; sourceTree = "<group>"; };
 		E436276A183EDCA000C608E1 /* BoxSearchRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSearchRequestBuilder.h; sourceTree = "<group>"; };
 		E436276B183EDCA000C608E1 /* BoxSearchRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSearchRequestBuilder.m; sourceTree = "<group>"; };
-		E4362770183EE05800C608E1 /* BoxSearchRequestBuilderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSearchRequestBuilderTests.h; sourceTree = "<group>"; };
-		E4362771183EE05800C608E1 /* BoxSearchRequestBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSearchRequestBuilderTests.m; sourceTree = "<group>"; };
 		E44A95B016E21C5100356ADA /* BoxSDKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSDKConstants.m; sourceTree = "<group>"; };
 		E470433B16D41DC500FED29A /* libBoxSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBoxSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E470433E16D41DC500FED29A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E470434216D41DC500FED29A /* BoxSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoxSDK-Prefix.pch"; sourceTree = "<group>"; };
 		E470434316D41DC500FED29A /* BoxSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxSDK.h; sourceTree = "<group>"; };
 		E470434516D41DC500FED29A /* BoxSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxSDK.m; sourceTree = "<group>"; };
-		E470434C16D41DC500FED29A /* BoxSDKTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxSDKTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E470434D16D41DC500FED29A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E470435716D41DC500FED29A /* BoxSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoxSDKTests-Info.plist"; sourceTree = "<group>"; };
-		E470435916D41DC500FED29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E470435B16D41DC500FED29A /* BoxSDKTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxSDKTests.h; sourceTree = "<group>"; };
-		E470435C16D41DC500FED29A /* BoxSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxSDKTests.m; sourceTree = "<group>"; };
 		E4C3289716D6F447002DC905 /* BoxLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxLog.h; sourceTree = "<group>"; };
 		E4CA6F54173F13C10089680F /* BoxParallelAPIQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxParallelAPIQueueManager.h; sourceTree = "<group>"; };
 		E4CA6F55173F13C10089680F /* BoxParallelAPIQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxParallelAPIQueueManager.m; sourceTree = "<group>"; };
@@ -787,8 +692,6 @@
 		E4CF273516DC4A5100F5979E /* BoxSDKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSDKConstants.h; sourceTree = "<group>"; };
 		E4D5085616E80667001CE50A /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = vendor/iOS/lib/OCMock/libOCMock.a; sourceTree = "<group>"; };
 		E4F4693517264439000CAD86 /* BoxSDKErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxSDKErrors.h; sourceTree = "<group>"; };
-		E4F469391726784B000CAD86 /* BoxSDKTestsHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxSDKTestsHelpers.h; sourceTree = "<group>"; };
-		E4F4693A17268023000CAD86 /* BoxSDKTestsHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSDKTestsHelpers.m; sourceTree = "<group>"; };
 		E4FAD97C172CE2C50052AD11 /* NSString+BoxURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BoxURLHelper.h"; sourceTree = "<group>"; };
 		E4FAD97D172CE2C50052AD11 /* NSString+BoxURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BoxURLHelper.m"; sourceTree = "<group>"; };
 		E4FAD97E172CE2C50052AD11 /* NSURL+BoxURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BoxURLHelper.h"; sourceTree = "<group>"; };
@@ -849,34 +752,6 @@
 		E4FAD9BD172CE2C50052AD11 /* BoxFilesResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFilesResourceManager.m; sourceTree = "<group>"; };
 		E4FAD9BE172CE2C50052AD11 /* BoxFoldersResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFoldersResourceManager.h; sourceTree = "<group>"; };
 		E4FAD9BF172CE2C50052AD11 /* BoxFoldersResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFoldersResourceManager.m; sourceTree = "<group>"; };
-		E4FAD9FB172CE2DF0052AD11 /* NSString+BoxURLHelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BoxURLHelperTests.h"; sourceTree = "<group>"; };
-		E4FAD9FC172CE2DF0052AD11 /* NSString+BoxURLHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BoxURLHelperTests.m"; sourceTree = "<group>"; };
-		E4FAD9FD172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BoxURLHelperTests.h"; sourceTree = "<group>"; };
-		E4FAD9FE172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BoxURLHelperTests.m"; sourceTree = "<group>"; };
-		E4FADA00172CE2DF0052AD11 /* BoxCollectionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxCollectionTests.h; sourceTree = "<group>"; };
-		E4FADA01172CE2DF0052AD11 /* BoxCollectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxCollectionTests.m; sourceTree = "<group>"; };
-		E4FADA02172CE2DF0052AD11 /* BoxFileTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFileTests.h; sourceTree = "<group>"; };
-		E4FADA03172CE2DF0052AD11 /* BoxFileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFileTests.m; sourceTree = "<group>"; };
-		E4FADA04172CE2DF0052AD11 /* BoxFolderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFolderTests.h; sourceTree = "<group>"; };
-		E4FADA05172CE2DF0052AD11 /* BoxFolderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFolderTests.m; sourceTree = "<group>"; };
-		E4FADA06172CE2DF0052AD11 /* BoxModelTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxModelTests.h; sourceTree = "<group>"; };
-		E4FADA07172CE2DF0052AD11 /* BoxModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxModelTests.m; sourceTree = "<group>"; };
-		E4FADA08172CE2DF0052AD11 /* BoxWebLinkTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxWebLinkTests.h; sourceTree = "<group>"; };
-		E4FADA09172CE2DF0052AD11 /* BoxWebLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxWebLinkTests.m; sourceTree = "<group>"; };
-		E4FADA0B172CE2DF0052AD11 /* BoxOAuth2SessionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxOAuth2SessionTests.h; sourceTree = "<group>"; };
-		E4FADA0C172CE2DF0052AD11 /* BoxOAuth2SessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxOAuth2SessionTests.m; sourceTree = "<group>"; };
-		E4FADA0D172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSerialOAuth2SessionTests.h; sourceTree = "<group>"; };
-		E4FADA0E172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSerialOAuth2SessionTests.m; sourceTree = "<group>"; };
-		E4FADA10172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxSerialAPIQueueManagerTests.h; sourceTree = "<group>"; };
-		E4FADA11172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxSerialAPIQueueManagerTests.m; sourceTree = "<group>"; };
-		E4FADA13172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFilesRequestBuilderTests.h; sourceTree = "<group>"; };
-		E4FADA14172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFilesRequestBuilderTests.m; sourceTree = "<group>"; };
-		E4FADA15172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFoldersRequestBuilderTests.h; sourceTree = "<group>"; };
-		E4FADA16172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFoldersRequestBuilderTests.m; sourceTree = "<group>"; };
-		E4FADA18172CE2DF0052AD11 /* BoxFilesResourceManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFilesResourceManagerTests.h; sourceTree = "<group>"; };
-		E4FADA19172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFilesResourceManagerTests.m; sourceTree = "<group>"; };
-		E4FADA1A172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxFoldersResourceManagerTests.h; sourceTree = "<group>"; };
-		E4FADA1B172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxFoldersResourceManagerTests.m; sourceTree = "<group>"; };
 		E4FADA2A172CE35F0052AD11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4FADA2D172CE9DC0052AD11 /* CHANGES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES.md; sourceTree = "<group>"; };
 		F05F80E517B3FD46001182FB /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = vendor/OSX/Frameworks/OCMock.framework; sourceTree = "<group>"; };
@@ -916,21 +791,6 @@
 				C54BBF701758539E00F5DAD8 /* QuartzCore.framework in Frameworks */,
 				E4FADA2B172CE35F0052AD11 /* UIKit.framework in Frameworks */,
 				E470433F16D41DC500FED29A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E470434816D41DC500FED29A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E40C7A4A174BFDE400477760 /* Security.framework in Frameworks */,
-				E4081E4E175EF1B900F6D6AA /* CoreGraphics.framework in Frameworks */,
-				E4081E4C175EF18800F6D6AA /* QuartzCore.framework in Frameworks */,
-				E4FADA2C172CE3A60052AD11 /* UIKit.framework in Frameworks */,
-				E4D5085816E80A2A001CE50A /* libOCMock.a in Frameworks */,
-				E470434E16D41DC500FED29A /* SenTestingKit.framework in Frameworks */,
-				E470435116D41DC500FED29A /* Foundation.framework in Frameworks */,
-				E470435416D41DC500FED29A /* libBoxSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1202,7 +1062,6 @@
 			isa = PBXGroup;
 			children = (
 				E470434016D41DC500FED29A /* BoxSDK */,
-				E470435516D41DC500FED29A /* BoxSDKTests */,
 				E4081D901758728900F6D6AA /* BoxSDKResources */,
 				F0E5E2EE17A78AEF00153646 /* BoxCocoaSDK */,
 				F0E5E30317A78AEF00153646 /* BoxCocoaSDKTests */,
@@ -1215,7 +1074,6 @@
 			isa = PBXGroup;
 			children = (
 				E470433B16D41DC500FED29A /* libBoxSDK.a */,
-				E470434C16D41DC500FED29A /* BoxSDKTests.octest */,
 				E4081D8D1758728900F6D6AA /* BoxSDKResources.bundle */,
 				F0E5E2E717A78AEF00153646 /* BoxCocoaSDK.framework */,
 				F0E5E2FD17A78AEF00153646 /* BoxCocoaSDKTests.octest */,
@@ -1260,33 +1118,6 @@
 			isa = PBXGroup;
 			children = (
 				E470434216D41DC500FED29A /* BoxSDK-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E470435516D41DC500FED29A /* BoxSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4FAD9FA172CE2DF0052AD11 /* Categories */,
-				E4FAD9FF172CE2DF0052AD11 /* Models */,
-				E4FADA0A172CE2DF0052AD11 /* OAuth2 */,
-				E4FADA0F172CE2DF0052AD11 /* QueueManagers */,
-				E4FADA12172CE2DF0052AD11 /* RequestBuilders */,
-				E4FADA17172CE2DF0052AD11 /* ResourceManagers */,
-				E470435616D41DC500FED29A /* Supporting Files */,
-				E470435B16D41DC500FED29A /* BoxSDKTests.h */,
-				E470435C16D41DC500FED29A /* BoxSDKTests.m */,
-				E4F469391726784B000CAD86 /* BoxSDKTestsHelpers.h */,
-				E4F4693A17268023000CAD86 /* BoxSDKTestsHelpers.m */,
-			);
-			path = BoxSDKTests;
-			sourceTree = "<group>";
-		};
-		E470435616D41DC500FED29A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E470435716D41DC500FED29A /* BoxSDKTests-Info.plist */,
-				E470435816D41DC500FED29A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1443,97 +1274,6 @@
 				E4FAD9BF172CE2C50052AD11 /* BoxFoldersResourceManager.m */,
 				CA0F91F6183EA1AF0090696B /* BoxCommentsResourceManager.h */,
 				CA0F91F7183EA1AF0090696B /* BoxCommentsResourceManager.m */,
-			);
-			path = ResourceManagers;
-			sourceTree = "<group>";
-		};
-		E4FAD9FA172CE2DF0052AD11 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				E4FAD9FB172CE2DF0052AD11 /* NSString+BoxURLHelperTests.h */,
-				E4FAD9FC172CE2DF0052AD11 /* NSString+BoxURLHelperTests.m */,
-				E4FAD9FD172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.h */,
-				E4FAD9FE172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.m */,
-				AF153B1517C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.h */,
-				AF153B1617C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		E4FAD9FF172CE2DF0052AD11 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				9400B0C417FB8C600077D4E7 /* BoxUserTests.h */,
-				9400B0C517FB8C600077D4E7 /* BoxUserTests.m */,
-				E4FADA00172CE2DF0052AD11 /* BoxCollectionTests.h */,
-				E4FADA01172CE2DF0052AD11 /* BoxCollectionTests.m */,
-				E4FADA02172CE2DF0052AD11 /* BoxFileTests.h */,
-				E4FADA03172CE2DF0052AD11 /* BoxFileTests.m */,
-				E4FADA04172CE2DF0052AD11 /* BoxFolderTests.h */,
-				E4FADA05172CE2DF0052AD11 /* BoxFolderTests.m */,
-				E4FADA06172CE2DF0052AD11 /* BoxModelTests.h */,
-				E4FADA07172CE2DF0052AD11 /* BoxModelTests.m */,
-				E4FADA08172CE2DF0052AD11 /* BoxWebLinkTests.h */,
-				E4FADA09172CE2DF0052AD11 /* BoxWebLinkTests.m */,
-				AF6E06AA17AE6C240039F17D /* BoxModelComparatorsTest.h */,
-				AF6E06AB17AE6C240039F17D /* BoxModelComparatorsTest.m */,
-				CA0F91FF183EBAA50090696B /* BoxCommentTests.h */,
-				CA0F9200183EBAA50090696B /* BoxCommentTests.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		E4FADA0A172CE2DF0052AD11 /* OAuth2 */ = {
-			isa = PBXGroup;
-			children = (
-				E4FADA0B172CE2DF0052AD11 /* BoxOAuth2SessionTests.h */,
-				E4FADA0C172CE2DF0052AD11 /* BoxOAuth2SessionTests.m */,
-				E4FADA0D172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.h */,
-				E4FADA0E172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.m */,
-			);
-			path = OAuth2;
-			sourceTree = "<group>";
-		};
-		E4FADA0F172CE2DF0052AD11 /* QueueManagers */ = {
-			isa = PBXGroup;
-			children = (
-				E4FADA10172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.h */,
-				E4FADA11172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.m */,
-			);
-			path = QueueManagers;
-			sourceTree = "<group>";
-		};
-		E4FADA12172CE2DF0052AD11 /* RequestBuilders */ = {
-			isa = PBXGroup;
-			children = (
-				70B086F618E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m */,
-				9400B0C117FB8C470077D4E7 /* BoxUsersRequestBuilderTests.h */,
-				9400B0C217FB8C470077D4E7 /* BoxUsersRequestBuilderTests.m */,
-				E4FADA13172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.h */,
-				E4FADA14172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m */,
-				E4FADA15172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.h */,
-				E4FADA16172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m */,
-				CA0F9205183EC3A40090696B /* BoxCommentsRequestBuilderTests.h */,
-				CA0F9206183EC3A40090696B /* BoxCommentsRequestBuilderTests.m */,
-				E4362770183EE05800C608E1 /* BoxSearchRequestBuilderTests.h */,
-				E4362771183EE05800C608E1 /* BoxSearchRequestBuilderTests.m */,
-			);
-			path = RequestBuilders;
-			sourceTree = "<group>";
-		};
-		E4FADA17172CE2DF0052AD11 /* ResourceManagers */ = {
-			isa = PBXGroup;
-			children = (
-				9400B0C717FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.m */,
-				9400B0C817FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.h */,
-				E4FADA18172CE2DF0052AD11 /* BoxFilesResourceManagerTests.h */,
-				E4FADA19172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m */,
-				E4FADA1A172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.h */,
-				E4FADA1B172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m */,
-				CA0F9202183EC3720090696B /* BoxCommentsResourceManagerTests.h */,
-				CA0F9203183EC3720090696B /* BoxCommentsResourceManagerTests.m */,
-				E436275A183E970E00C608E1 /* BoxSearchResourceManagerTests.h */,
-				E436275B183E970E00C608E1 /* BoxSearchResourceManagerTests.m */,
 			);
 			path = ResourceManagers;
 			sourceTree = "<group>";
@@ -1771,24 +1511,6 @@
 			productReference = E470433B16D41DC500FED29A /* libBoxSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E470434B16D41DC500FED29A /* BoxSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E470436316D41DC500FED29A /* Build configuration list for PBXNativeTarget "BoxSDKTests" */;
-			buildPhases = (
-				E470434716D41DC500FED29A /* Sources */,
-				E470434816D41DC500FED29A /* Frameworks */,
-				E470434916D41DC500FED29A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E470435316D41DC500FED29A /* PBXTargetDependency */,
-			);
-			name = BoxSDKTests;
-			productName = BoxSDKTests;
-			productReference = E470434C16D41DC500FED29A /* BoxSDKTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 		F0E5E2E617A78AEF00153646 /* BoxCocoaSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0E5E31017A78AEF00153646 /* Build configuration list for PBXNativeTarget "BoxCocoaSDK" */;
@@ -1824,7 +1546,7 @@
 			name = BoxCocoaSDKTests;
 			productName = BoxCocoaSDKTests;
 			productReference = F0E5E2FD17A78AEF00153646 /* BoxCocoaSDKTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1832,6 +1554,7 @@
 		E470433316D41DC500FED29A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Box;
 				TargetAttributes = {
@@ -1853,7 +1576,6 @@
 			projectRoot = "";
 			targets = (
 				E470433A16D41DC500FED29A /* BoxSDK */,
-				E470434B16D41DC500FED29A /* BoxSDKTests */,
 				E4081D8C1758728900F6D6AA /* BoxSDKResources */,
 				F0E5E2E617A78AEF00153646 /* BoxCocoaSDK */,
 				F0E5E2FC17A78AEF00153646 /* BoxCocoaSDKTests */,
@@ -2058,14 +1780,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E470434916D41DC500FED29A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E470435A16D41DC500FED29A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F0E5E2FA17A78AEF00153646 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2165,40 +1879,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E470434716D41DC500FED29A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E470435D16D41DC500FED29A /* BoxSDKTests.m in Sources */,
-				E4F4693B17268023000CAD86 /* BoxSDKTestsHelpers.m in Sources */,
-				E4FADA1C172CE2DF0052AD11 /* NSString+BoxURLHelperTests.m in Sources */,
-				E4FADA1D172CE2DF0052AD11 /* NSURL+BoxURLHelperTests.m in Sources */,
-				E4FADA1E172CE2DF0052AD11 /* BoxCollectionTests.m in Sources */,
-				CA0F9204183EC3720090696B /* BoxCommentsResourceManagerTests.m in Sources */,
-				E4FADA1F172CE2DF0052AD11 /* BoxFileTests.m in Sources */,
-				E4FADA20172CE2DF0052AD11 /* BoxFolderTests.m in Sources */,
-				E4FADA21172CE2DF0052AD11 /* BoxModelTests.m in Sources */,
-				E4362772183EE05800C608E1 /* BoxSearchRequestBuilderTests.m in Sources */,
-				E4FADA22172CE2DF0052AD11 /* BoxWebLinkTests.m in Sources */,
-				CA0F9201183EBAA50090696B /* BoxCommentTests.m in Sources */,
-				70B086F718E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m in Sources */,
-				E4FADA23172CE2DF0052AD11 /* BoxOAuth2SessionTests.m in Sources */,
-				E4FADA24172CE2DF0052AD11 /* BoxSerialOAuth2SessionTests.m in Sources */,
-				E4FADA25172CE2DF0052AD11 /* BoxSerialAPIQueueManagerTests.m in Sources */,
-				E4FADA26172CE2DF0052AD11 /* BoxFilesRequestBuilderTests.m in Sources */,
-				E4FADA27172CE2DF0052AD11 /* BoxFoldersRequestBuilderTests.m in Sources */,
-				E4FADA28172CE2DF0052AD11 /* BoxFilesResourceManagerTests.m in Sources */,
-				E4FADA29172CE2DF0052AD11 /* BoxFoldersResourceManagerTests.m in Sources */,
-				CA0F9207183EC3A40090696B /* BoxCommentsRequestBuilderTests.m in Sources */,
-				AF6E06AC17AE6C240039F17D /* BoxModelComparatorsTest.m in Sources */,
-				AF153B1717C34D84008D636C /* NSJSONSerialization+BoxAdditionsTests.m in Sources */,
-				9400B0C317FB8C470077D4E7 /* BoxUsersRequestBuilderTests.m in Sources */,
-				E436275C183E970E00C608E1 /* BoxSearchResourceManagerTests.m in Sources */,
-				9400B0C617FB8C600077D4E7 /* BoxUserTests.m in Sources */,
-				9400B0C917FB8C6F0077D4E7 /* BoxUsersResourceManagerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F0E5E2E217A78AEF00153646 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2255,44 +1935,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F06C08183EE793006AFB83 /* BoxCommentTests.m in Sources */,
-				E4F06C09183EE793006AFB83 /* BoxCommentsRequestBuilderTests.m in Sources */,
-				E4F06C0A183EE793006AFB83 /* BoxCommentsResourceManagerTests.m in Sources */,
-				E4362773183EE1DA00C608E1 /* BoxSearchRequestBuilderTests.m in Sources */,
-				E436275D183E9D1400C608E1 /* BoxSearchResourceManagerTests.m in Sources */,
-				E479B2961804C06800F8D79C /* BoxUserTests.m in Sources */,
-				E479B2971804C06800F8D79C /* BoxUsersRequestBuilderTests.m in Sources */,
-				E479B2981804C06800F8D79C /* BoxUsersResourceManagerTests.m in Sources */,
-				AF6534B617CF281600C27DFD /* NSJSONSerialization+BoxAdditionsTests.m in Sources */,
-				AF6534B717CF281600C27DFD /* BoxModelComparatorsTest.m in Sources */,
-				F05F80FD17B40850001182FB /* BoxFoldersResourceManagerTests.m in Sources */,
 				F0E5E30B17A78AEF00153646 /* BoxCocoaSDKTests.m in Sources */,
-				70B086F818E0DC1300EA2D8F /* BoxSharedObjectBuilderTests.m in Sources */,
-				F042767217A8839600EB3419 /* BoxSDKTestsHelpers.m in Sources */,
-				F05F80E917B3FE33001182FB /* NSString+BoxURLHelperTests.m in Sources */,
-				F05F80EA17B3FE33001182FB /* NSURL+BoxURLHelperTests.m in Sources */,
-				F05F80ED17B4021C001182FB /* BoxCollectionTests.m in Sources */,
-				F05F80EE17B4021C001182FB /* BoxFileTests.m in Sources */,
-				F05F80EF17B4021C001182FB /* BoxFolderTests.m in Sources */,
-				F05F80F017B4021C001182FB /* BoxModelTests.m in Sources */,
-				F05F80F117B4021C001182FB /* BoxWebLinkTests.m in Sources */,
-				F05F80F217B40493001182FB /* BoxOAuth2SessionTests.m in Sources */,
-				F05F80F317B40493001182FB /* BoxSerialOAuth2SessionTests.m in Sources */,
-				F05F80F917B40730001182FB /* BoxSerialAPIQueueManagerTests.m in Sources */,
-				F05F80FA17B40764001182FB /* BoxFilesRequestBuilderTests.m in Sources */,
-				F05F80FB17B40764001182FB /* BoxFoldersRequestBuilderTests.m in Sources */,
-				F05F80FC17B40850001182FB /* BoxFilesResourceManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E470435316D41DC500FED29A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E470433A16D41DC500FED29A /* BoxSDK */;
-			targetProxy = E470435216D41DC500FED29A /* PBXContainerItemProxy */;
-		};
 		F0E5E30117A78AEF00153646 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0E5E2E617A78AEF00153646 /* BoxCocoaSDK */;
@@ -2305,14 +1954,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				E4081D941758728900F6D6AA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E470435816D41DC500FED29A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E470435916D41DC500FED29A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2366,32 +2007,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = include/BoxSDK;
 				SKIP_INSTALL = YES;
-			};
-			name = AdHoc;
-		};
-		DA36B23B1992AC770023DC39 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxSDK/BoxSDK-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/include\"",
-				);
-				INFOPLIST_FILE = "BoxSDKTests/BoxSDKTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/lib/OCMock\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = AdHoc;
 		};
@@ -2493,32 +2108,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = include/BoxSDK;
 				SKIP_INSTALL = YES;
-			};
-			name = Enterprise;
-		};
-		DA36B2411992B85D0023DC39 /* Enterprise */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxSDK/BoxSDK-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/include\"",
-				);
-				INFOPLIST_FILE = "BoxSDKTests/BoxSDKTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/lib/OCMock\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Enterprise;
 		};
@@ -2700,58 +2289,6 @@
 			};
 			name = Release;
 		};
-		E470436416D41DC500FED29A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxSDK/BoxSDK-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/include\"",
-				);
-				INFOPLIST_FILE = "BoxSDKTests/BoxSDKTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/lib/OCMock\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		E470436516D41DC500FED29A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxSDK/BoxSDK-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/include\"",
-				);
-				INFOPLIST_FILE = "BoxSDKTests/BoxSDKTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/iOS/lib/OCMock\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 		F0E5E30C17A78AEF00153646 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2872,17 +2409,6 @@
 				E470436216D41DC500FED29A /* Release */,
 				DA36B23A1992AC770023DC39 /* AdHoc */,
 				DA36B2401992B85D0023DC39 /* Enterprise */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E470436316D41DC500FED29A /* Build configuration list for PBXNativeTarget "BoxSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E470436416D41DC500FED29A /* Debug */,
-				E470436516D41DC500FED29A /* Release */,
-				DA36B23B1992AC770023DC39 /* AdHoc */,
-				DA36B2411992B85D0023DC39 /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
