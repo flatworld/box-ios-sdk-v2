@@ -327,14 +327,7 @@
 		E4FAD9F8172CE2C50052AD11 /* BoxFoldersResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD9BE172CE2C50052AD11 /* BoxFoldersResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4FAD9F9172CE2C50052AD11 /* BoxFoldersResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9BF172CE2C50052AD11 /* BoxFoldersResourceManager.m */; };
 		E4FADA2B172CE35F0052AD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FADA2A172CE35F0052AD11 /* UIKit.framework */; };
-		F05F80E417B3FD2A001182FB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E5E36217A78DEF00153646 /* Security.framework */; };
-		F05F80E617B3FD46001182FB /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05F80E517B3FD46001182FB /* OCMock.framework */; };
-		F05F80EC17B40168001182FB /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F05F80E517B3FD46001182FB /* OCMock.framework */; };
 		F0E5E2F717A78AEF00153646 /* BoxCocoaSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E5E2F617A78AEF00153646 /* BoxCocoaSDK.m */; };
-		F0E5E2FE17A78AEF00153646 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470434D16D41DC500FED29A /* SenTestingKit.framework */; };
-		F0E5E30217A78AEF00153646 /* BoxCocoaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E5E2E717A78AEF00153646 /* BoxCocoaSDK.framework */; };
-		F0E5E30817A78AEF00153646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0E5E30617A78AEF00153646 /* InfoPlist.strings */; };
-		F0E5E30B17A78AEF00153646 /* BoxCocoaSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E5E30A17A78AEF00153646 /* BoxCocoaSDKTests.m */; };
 		F0E5E31217A78C6800153646 /* NSString+BoxURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD97D172CE2C50052AD11 /* NSString+BoxURLHelper.m */; };
 		F0E5E31317A78C6800153646 /* NSURL+BoxURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD97F172CE2C50052AD11 /* NSURL+BoxURLHelper.m */; };
 		F0E5E31417A78C6800153646 /* NSString+BoxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C11A3E175DA92E0001EC88 /* NSString+BoxAdditions.m */; };
@@ -411,16 +404,6 @@
 		F0E5E36317A78DEF00153646 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E5E36217A78DEF00153646 /* Security.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F0E5E30017A78AEF00153646 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E470433316D41DC500FED29A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0E5E2E617A78AEF00153646;
-			remoteInfo = BoxCocoaSDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		E470433916D41DC500FED29A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -428,16 +411,6 @@
 			dstPath = include;
 			dstSubfolderSpec = 16;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F05F80EB17B40159001182FB /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				F05F80EC17B40168001182FB /* OCMock.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +656,6 @@
 		E470434216D41DC500FED29A /* BoxSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoxSDK-Prefix.pch"; sourceTree = "<group>"; };
 		E470434316D41DC500FED29A /* BoxSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxSDK.h; sourceTree = "<group>"; };
 		E470434516D41DC500FED29A /* BoxSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxSDK.m; sourceTree = "<group>"; };
-		E470434D16D41DC500FED29A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E4C3289716D6F447002DC905 /* BoxLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxLog.h; sourceTree = "<group>"; };
 		E4CA6F54173F13C10089680F /* BoxParallelAPIQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxParallelAPIQueueManager.h; sourceTree = "<group>"; };
 		E4CA6F55173F13C10089680F /* BoxParallelAPIQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxParallelAPIQueueManager.m; sourceTree = "<group>"; };
@@ -760,11 +732,6 @@
 		F0E5E2F417A78AEF00153646 /* BoxCocoaSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoxCocoaSDK-Prefix.pch"; sourceTree = "<group>"; };
 		F0E5E2F517A78AEF00153646 /* BoxCocoaSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxCocoaSDK.h; sourceTree = "<group>"; };
 		F0E5E2F617A78AEF00153646 /* BoxCocoaSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxCocoaSDK.m; sourceTree = "<group>"; };
-		F0E5E2FD17A78AEF00153646 /* BoxCocoaSDKTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxCocoaSDKTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E5E30517A78AEF00153646 /* BoxCocoaSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoxCocoaSDKTests-Info.plist"; sourceTree = "<group>"; };
-		F0E5E30717A78AEF00153646 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0E5E30917A78AEF00153646 /* BoxCocoaSDKTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxCocoaSDKTests.h; sourceTree = "<group>"; };
-		F0E5E30A17A78AEF00153646 /* BoxCocoaSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxCocoaSDKTests.m; sourceTree = "<group>"; };
 		F0E5E33217A78C9B00153646 /* BoxItem+BoxCocoaAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BoxItem+BoxCocoaAdditions.h"; path = "Categories/BoxItem+BoxCocoaAdditions.h"; sourceTree = "<group>"; };
 		F0E5E33317A78C9B00153646 /* BoxItem+BoxCocoaAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BoxItem+BoxCocoaAdditions.m"; path = "Categories/BoxItem+BoxCocoaAdditions.m"; sourceTree = "<group>"; };
 		F0E5E33417A78C9B00153646 /* NSImage+BoxAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+BoxAdditions.h"; path = "Categories/NSImage+BoxAdditions.h"; sourceTree = "<group>"; };
@@ -801,17 +768,6 @@
 				F0E5E36117A78DE000153646 /* Foundation.framework in Frameworks */,
 				F0E5E35F17A78DB400153646 /* Cocoa.framework in Frameworks */,
 				F0E5E36317A78DEF00153646 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0E5E2F917A78AEF00153646 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F05F80E617B3FD46001182FB /* OCMock.framework in Frameworks */,
-				F05F80E417B3FD2A001182FB /* Security.framework in Frameworks */,
-				F0E5E2FE17A78AEF00153646 /* SenTestingKit.framework in Frameworks */,
-				F0E5E30217A78AEF00153646 /* BoxCocoaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,7 +1020,6 @@
 				E470434016D41DC500FED29A /* BoxSDK */,
 				E4081D901758728900F6D6AA /* BoxSDKResources */,
 				F0E5E2EE17A78AEF00153646 /* BoxCocoaSDK */,
-				F0E5E30317A78AEF00153646 /* BoxCocoaSDKTests */,
 				E470433D16D41DC500FED29A /* Frameworks */,
 				E470433C16D41DC500FED29A /* Products */,
 			);
@@ -1076,7 +1031,6 @@
 				E470433B16D41DC500FED29A /* libBoxSDK.a */,
 				E4081D8D1758728900F6D6AA /* BoxSDKResources.bundle */,
 				F0E5E2E717A78AEF00153646 /* BoxCocoaSDK.framework */,
-				F0E5E2FD17A78AEF00153646 /* BoxCocoaSDKTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1086,7 +1040,6 @@
 			children = (
 				F05F80E817B3FD9C001182FB /* OSX */,
 				F05F80E717B3FD8C001182FB /* iOS */,
-				E470434D16D41DC500FED29A /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1323,25 +1276,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F0E5E30317A78AEF00153646 /* BoxCocoaSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				F0E5E30917A78AEF00153646 /* BoxCocoaSDKTests.h */,
-				F0E5E30A17A78AEF00153646 /* BoxCocoaSDKTests.m */,
-				F0E5E30417A78AEF00153646 /* Supporting Files */,
-			);
-			path = BoxCocoaSDKTests;
-			sourceTree = "<group>";
-		};
-		F0E5E30417A78AEF00153646 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0E5E30517A78AEF00153646 /* BoxCocoaSDKTests-Info.plist */,
-				F0E5E30617A78AEF00153646 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F0E5E33A17A78CA200153646 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -1529,39 +1463,15 @@
 			productReference = F0E5E2E717A78AEF00153646 /* BoxCocoaSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F0E5E2FC17A78AEF00153646 /* BoxCocoaSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0E5E31117A78AEF00153646 /* Build configuration list for PBXNativeTarget "BoxCocoaSDKTests" */;
-			buildPhases = (
-				F0E5E2F817A78AEF00153646 /* Sources */,
-				F0E5E2F917A78AEF00153646 /* Frameworks */,
-				F0E5E2FA17A78AEF00153646 /* Resources */,
-				F05F80EB17B40159001182FB /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0E5E30117A78AEF00153646 /* PBXTargetDependency */,
-			);
-			name = BoxCocoaSDKTests;
-			productName = BoxCocoaSDKTests;
-			productReference = F0E5E2FD17A78AEF00153646 /* BoxCocoaSDKTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E470433316D41DC500FED29A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastTestingUpgradeCheck = 0610;
+				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Box;
-				TargetAttributes = {
-					F0E5E2FC17A78AEF00153646 = {
-						TestTargetID = E470433A16D41DC500FED29A;
-					};
-				};
 			};
 			buildConfigurationList = E470433616D41DC500FED29A /* Build configuration list for PBXProject "BoxSDK" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1578,7 +1488,6 @@
 				E470433A16D41DC500FED29A /* BoxSDK */,
 				E4081D8C1758728900F6D6AA /* BoxSDKResources */,
 				F0E5E2E617A78AEF00153646 /* BoxCocoaSDK */,
-				F0E5E2FC17A78AEF00153646 /* BoxCocoaSDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1780,14 +1689,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0E5E2FA17A78AEF00153646 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0E5E30817A78AEF00153646 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F0E5E36417A78F2200153646 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1931,37 +1832,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0E5E2F817A78AEF00153646 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0E5E30B17A78AEF00153646 /* BoxCocoaSDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F0E5E30117A78AEF00153646 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0E5E2E617A78AEF00153646 /* BoxCocoaSDK */;
-			targetProxy = F0E5E30017A78AEF00153646 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4081D931758728900F6D6AA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E4081D941758728900F6D6AA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F0E5E30617A78AEF00153646 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0E5E30717A78AEF00153646 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2047,29 +1924,6 @@
 			};
 			name = AdHoc;
 		};
-		DA36B23E1992AC770023DC39 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/OSX/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxCocoaSDK/BoxCocoaSDK-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "BoxCocoaSDKTests/BoxCocoaSDKTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = AdHoc;
-		};
 		DA36B23F1992B85D0023DC39 /* Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2145,29 +1999,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
-			};
-			name = Enterprise;
-		};
-		DA36B2441992B85D0023DC39 /* Enterprise */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/OSX/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxCocoaSDK/BoxCocoaSDK-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "BoxCocoaSDKTests/BoxCocoaSDKTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Enterprise;
 		};
@@ -2332,51 +2163,6 @@
 			};
 			name = Release;
 		};
-		F0E5E30E17A78AEF00153646 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/OSX/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxCocoaSDK/BoxCocoaSDK-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "BoxCocoaSDKTests/BoxCocoaSDKTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		F0E5E30F17A78AEF00153646 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/OSX/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BoxCocoaSDK/BoxCocoaSDK-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "BoxCocoaSDKTests/BoxCocoaSDKTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2420,17 +2206,6 @@
 				F0E5E30D17A78AEF00153646 /* Release */,
 				DA36B23D1992AC770023DC39 /* AdHoc */,
 				DA36B2431992B85D0023DC39 /* Enterprise */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0E5E31117A78AEF00153646 /* Build configuration list for PBXNativeTarget "BoxCocoaSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0E5E30E17A78AEF00153646 /* Debug */,
-				F0E5E30F17A78AEF00153646 /* Release */,
-				DA36B23E1992AC770023DC39 /* AdHoc */,
-				DA36B2441992B85D0023DC39 /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
